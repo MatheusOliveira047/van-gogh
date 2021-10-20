@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: url(Van\ Gogh_banner_1.jpg);
+    background-size: cover;  
+
+    text-align: center;
+    padding: 50px 0 ;
+    font-size: 45px;
+}
+
+.conteiner{
+    display: flex;
+    
+}
+.navbar{
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+}
+.content{
+    width: 70%;
+    background-color: #ddd7d7;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1px 9px 1px 9px;
+}
+
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    position:relative;
+    width: 100%;
+}
+
+.quem{
+    background-size: cover;
+}
+.p-content{
+    margin: 10px;
+}
+.nav-links{
+    background-color: rgb(70, 70, 238);
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 1px 9px 1px 9px;
+    text-align: center;
+    
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.obras{
+    padding: 10px;
+}
+
+.content-film{
+    text-align: center;
+    width: 70%;
+    background-color: #ddd7d7;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1px 9px 1px 9px;
+}
+.footer-home{
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+}
+.footer-filme{
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+}
